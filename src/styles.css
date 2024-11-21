@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*parte iniciaç do codigo*/
+<body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #00c3ff;
+  line-height: 1.6;
+}
+
+/*final*/
+header {
+  background-color: #721d1d;
+  color: rgb(255, 255, 255);
+  padding: 10px 0;
+  text-align: center;
+  position: relative;
+}
+
+header .logo h1 {
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: rgb(246, 240, 240);
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+section {
+  padding: 20px;
+  brder-radius: 0px;
+}
+
+.sobre {
+  background-color: #ff0000;
+}
+
+.oqueé {
+  background-color: #000000;
+}
+
+.bullying {
+  background-color: #fbff00;
+}
+
+.consequencias {
+  background-color: #ffffff;
+}
+
+.ajuda {
+  background-color: #a3a3a3;
+}
+
+.denunciar {
+  background-color: #757575;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+/*botao
+button {
+  background-color: #eeeeee;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4682b4;
+}
+*/
+.footer {
+  background-color: #333;
+  color: rgb(255, 0, 0);
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 1;
+  width: 100%;
+}
+
+final botao*/
+/*
+.hamburger {
+  display: none;
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  position: ;
+  top: 15px;
+  right: 20px;
+}
+*/
+/*final*/
+@media (max-width: 768px) {
+  header .logo h1 {
+    font-size: 1.5rem;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 5px 0;
+  }
+
+  section {
+    margin: 10px;
+  }
+
+  footer {
+    position: justify;
+  }
+}
+
+.show-menu {
+  display: flex !important;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  /* Proporção 16:9 */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.video-consequencias {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: fit-content;
+  height: fit-content: z-index: -100;
+  background-size: cover;
+  overflow: hidden;
+}
